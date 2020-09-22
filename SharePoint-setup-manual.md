@@ -79,11 +79,21 @@ All data sources have been stripped from the app prior to sharing it. Several da
 6. Select **SharePoint** and then **Add a connection**. Ensure radio button is on **Connect directly (butt services)** and then click **Connect**. Enter the URL of the SharePoint site that contains all the lists you created, then click **Connect**. Select these lists that you previously created: AccessRequest, Building, Floor, UserSetting, VisitorLog; then click **Connect**.
 7. Select **Power Apps Notification** and then **Add a connection**. For the target application, enter the App ID from the previous section, then click **Connect**.
 
-### Enabling App Usage
+###
 
-1. On the main Apps page, click the … beside the imported app and click **Details**.
-2. Select the **Versions** view.
-3. Select the … beside the version you wish to publish, if it is not already Live.
-4. Select **Publish this version** , then **Publish this version**.
-5. On the main Apps page, click the … beside the app and click **Share**.
-6. Add users as desired, then click **Share**.
+### Changes to field names
+
+The creation of the SharePoint lists maintains the default "Title" field name for the key field
+
+Rename the following fields in the SharePoint lists:
+
+ApplicationUser:
+Change Title to msft_userid
+Elevator Access:
+Change Title to ElevatorAccessID
+Building Floor:
+Change Title to BuildingFloorText
+Elevator Bank Capacity:
+Change Title to BuildingID
+Building:
+Change Title to Text
