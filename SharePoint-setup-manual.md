@@ -4,14 +4,10 @@
 
 **Version: 1.0**
 
-**Author: Business Analytics Centre, Department of Justice**
-**Modified by: Solutions Centre, Transport Canada**
+**Author: Solutions Centre, Transport Canada**
 
 **Contact(s): rabih.yassine@tc.gc.ca**
 
-## Summary
-
-The COVID-19 Office Entry app allows employees to request access to specific floors for themselves and visitors in specific buildings during certain times, and for those requests to be approved by managers. This allows the department to ensure a safe environment with a much lower chance of employees coming into contact with each other. The app has been developed by the Department of Justice Business Analytics Centre using the Office 365 Power Platform. The main pieces include a Power Apps application and a series of SharePoint lists that will store the data that is created and/or referenced by the application. This document provides the details for setting up this application to work in a different Office 365 environment or under a different tenant.
 
 ## SharePoint Lists Setup
 
@@ -80,7 +76,7 @@ All data sources have been stripped from the app prior to sharing it. Several da
 3. Expand the **Connectors** submenu
 4. Select **Office 365 Outlook** and then **Add a connection**. Then **Connect**.
 5. Select **Office 365 Users** and then **Add a connection**. Then **Connect**.
-6. Select **SharePoint** and then **Add a connection**. Ensure radio button is on **Connect directly (cloud services)** and then click **Connect**. Enter the URL of the SharePoint site that contains all the lists you created, then click **Connect**. Select these lists that you previously created: AccessRequest, Building, Floor, UserSetting, VisitorLog; then click **Connect**.
+6. Select **SharePoint** and then **Add a connection**. Ensure radio button is on **Connect directly (butt services)** and then click **Connect**. Enter the URL of the SharePoint site that contains all the lists you created, then click **Connect**. Select these lists that you previously created: AccessRequest, Building, Floor, UserSetting, VisitorLog; then click **Connect**.
 7. Select **Power Apps Notification** and then **Add a connection**. For the target application, enter the App ID from the previous section, then click **Connect**.
 
 ### Enabling App Usage
