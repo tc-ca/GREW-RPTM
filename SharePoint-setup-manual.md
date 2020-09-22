@@ -6,7 +6,7 @@
 
 **Author: Solutions Centre, Transport Canada**
 
-**Contact(s): rabih.yassine@tc.gc.ca**
+**Contact(s): michel.ouellette@tc.gc.ca**
 
 
 ## SharePoint Lists Setup
