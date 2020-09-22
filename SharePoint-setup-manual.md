@@ -89,11 +89,15 @@ Rename the following fields in the SharePoint lists:
 
 ApplicationUser:
 Change Title to msft_userid
+
 Elevator Access:
 Change Title to ElevatorAccessID
+
 Building Floor:
 Change Title to BuildingFloorText
+
 Elevator Bank Capacity:
 Change Title to BuildingID
+
 Building:
 Change Title to Text
